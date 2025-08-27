@@ -9,7 +9,7 @@ export function Currency() {
     const [result, setResult] = useState('')
     
 
-    const convert =async ()=> {
+    const convert = async ()=> {
         const from_data = document.form.from.value;
         const to_data = document.form.to.value;
         const amount = document.form.amount.value;
